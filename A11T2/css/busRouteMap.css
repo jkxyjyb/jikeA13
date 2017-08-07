@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-size: 62.5%; }
+
+.bus-route-top {
+  width: 100%;
+  min-width: 1000px;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 20px; }
+  .bus-route-top .top-left {
+    width: 30%;
+    min-width: 300px;
+    height: 100%;
+    background-color: white;
+    display: inline-block;
+    float: left; }
+    .bus-route-top .top-left .left-number {
+      width: 100%;
+      height: 230px;
+      line-height: 230px;
+      color: white;
+      background-color: orangered;
+      text-align: center; }
+      .bus-route-top .top-left .left-number h1 {
+        font-size: 25rem; }
+    .bus-route-top .top-left .left-schedule {
+      width: 100%;
+      height: 70px;
+      line-height: 70px;
+      text-align: center;
+      color: green;
+      background-color: blueviolet; }
+      .bus-route-top .top-left .left-schedule h3 {
+        font-size: 3.5rem; }
+  .bus-route-top .top-right {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    min-width: 700px; }
+    .bus-route-top .top-right .route-name {
+      margin-top: 50px; }
+      .bus-route-top .top-right .route-name h1 {
+        color: orangered;
+        font-size: 10rem; }
+      .bus-route-top .top-right .route-name h3 {
+        color: green;
+        font-size: 5rem;
+        line-height: 50px; }
+
+.bus-route-mid {
+  height: 300px;
+  width: 100%;
+  min-width: 1000px;
+  background-color: green;
+  overflow: hidden; }
+  .bus-route-mid ul {
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    margin-top: 25px; }
+    .bus-route-mid ul li {
+      width: 50px;
+      height: 100%;
+      text-align: center;
+      display: inline-block;
+      float: left;
+    overflow: inherit}
+
+      .bus-route-mid ul li span {
+        font-size: 3.5rem;
+        color: white; }
+
+.bus-route-bot {
+  width: 100%;
+  min-width: 1000px;
+  height: 100px; }
+  .bus-route-bot .bot-text {
+    height: 75px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 75px;
+    text-align: center; }
+    .bus-route-bot .bot-text span {
+      font-size: 3rem;
+      color: black; }
+  .bus-route-bot .bot-divider {
+    width: 90%;
+    height: 5px;
+    margin: 0 auto;
+    position: relative;
+    background-color: orangered; }
+    .bus-route-bot .bot-divider:before {
+      content: '';
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: 19px solid orangered;
+      border-left: 120px solid transparent;
+      border-right: 7px solid transparent;
+      position: absolute;
+      bottom: -6px;
+      left: -2px;
+      transform: rotate(-9deg); }
+
+/*# sourceMappingURL=busRouteMap.css.map */
+.wrapper{
+  height:300px;
+  width:100%;
+}
+.left{
+  height:300px;
+  width:30%;
+}
+.right{
+  height:300px;
+  width:70%;
+}

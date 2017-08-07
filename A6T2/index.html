@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hao123换肤</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!--<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+<div class="layout-header">
+    <div class="layout-header__bg">
+    </div>
+    <!--hao123的header-->
+    <div class="header">
+            <div class="header__inner">
+                <div class="header__item header__item--logo">
+                    <div class="hao123logo">
+                        <a href="https://www.hao123.com/link/https/?key=http%3A%2F%2Fwww.hao123.com%2Fzt%2F2017gk&&c=4B9664D793F407839FA1E616F3802B6B"></a>
+                    </div>
+                </div>
+                <div class="header__item--fl">
+                    <div class="header__item header__item--ib header__item--weather">
+                        <div class="weather">
+                            <a class="weather__item weather__city">北京</a>
+                            <a class="weather__item weather__pm25">良</a>
+                            <a class="weather__item">今天小雨 26 ~ 23℃</a>
+                        </div>
+                    </div>
+                    <div class="header__item header__item--ib header__item--calendar">
+                        <div class="calendar headlink">
+                            <div class="calendar__cont">
+                                <a class="headlink__link calendar__link">
+                                    <span>7月07日</span>
+                                    <span>周五</span>
+
+                                </a>
+                                <a class="headlink__link calendar__link">
+                                    <span class="calendar__text--nongli">六月十四</span>
+
+                                </a>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="header__item header__item--ib header__item--star">
+                        <a class="headlink__link calendar__link">
+                            <span>星座运势</span>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="header__item--fr">
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link login__user">
+                            <span>登陆</span>
+                        </a>
+                    </div>
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link">
+                            <span>网盘</span>
+                        </a>
+                    </div>
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link">
+                            <span>邮箱</span>
+                        </a>
+                    </div>
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link">
+                            <span>手机版</span>
+                        </a>
+                    </div>
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link">
+                            <span>换肤</span>
+                        </a>
+                    </div>
+                    <div class="header__item header__item--ib">
+                        <a  class="headlink__link calendar__link headlink-football">
+                            <span>中超第十六轮竞猜</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+</div>
+<!--hao123的搜索框-->
+
+<div class="hao123-search-panel-box">
+    <div class="hao123-search-panel page-width">
+        <div class="hao123-search">
+            <div class="search">
+                <div class="left logo">
+                    <a class="link">
+                        <span></span>
+                    </a>
+                </div>
+                <div class="right form-wrapper">
+                    <form>
+                        <div class="input-wrapper">
+                            <div class="input-shadow">
+                                <input  class="input" type="text" placeholder="搜你想搜的">
+                            </div>
+                        </div>
+                        <div class="button-wrapper">
+                            <input class="button" type="submit" value="百度一下">
+                        </div>
+                    </form>
+
+                </div>
+                <!--hao123的改变颜色功能-->
+
+                <div class="changing-color" id="changing-color">
+                    <p>点击下列按钮改变网页颜色</p>
+                    <button style="background-color: green" id="green" onclick="changingcolor(this.id)">绿色</button>
+                    <button style="background-color: red" id="red" onclick="changingcolor(this.id)">红色</button>
+                    <button style="background-color: blue ; color:white" id="blue" onclick="changingcolor(this.id)">蓝色</button>
+                    <button style="background-color: black; color:white" id="black" onclick="changingcolor(this.id)">黑色</button>
+                    <button style="background-color: yellow" id="yellow" onclick="changingcolor(this.id)">黄色</button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="hotsearchCon">
+    <div class="hotsearch-box">
+        <ul  class="boxhot">
+            <li class="title">
+                <a class="hotsearch-link"></a>
+            </li>
+            <li class="text"><a>北京天气</a></li>
+            <li class="text"><a>NBA</a></li>
+            <li class="text"><a>宋仲基结婚感言</a></li>
+            <li class="text"><a>李光沭吃醋了</a></li>
+            <li class="text"><a>全国胸最小的省</a></li>
+            <li class="text"><a>程七七怀孕</a></li>
+            <li class="text"><a>中国国足夺冠</a></li>
+
+
+        </ul>
+
+    </div>
+</div>
+<!--hao123的左边内容栏-->
+
+<div id="hao123-bodyct">
+    <div class="page-width">
+        <ul class="menus g-bg5" id="color">
+            <li class="g-gc first">
+                <a class="link g-fc5 g-bg13">首页</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">电视剧</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">最新电影</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">新闻头条</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">八卦娱乐</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">军师热点</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">热门游戏</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">小游戏</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">今日特价</a>
+            </li>
+            <li class="g-gc ">
+                <a class="link">特价旅游</a>
+            </li>
+            <li class="g-gc last">
+                <a class="link">热点车讯</a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="page-width">
+        <div class="govsite-top g-br13">
+            <span class="title g-gc ">权威推荐</span>
+            <a class="g-gc">人民网</a>
+            <a class="g-gc">新华网</a>
+            <a class="g-gc">央视网</a>
+            <a class="g-gc">国际在线</a>
+            <a class="g-gc">中国日报</a>
+            <a class="g-gc">中国网</a>
+            <a class="g-gc">中经网</a>
+            <a class="g-gc">光明网</a>
+            <a class="g-gc">央广网</a>
+            <a class="g-gc">求是网</a>
+            <a class="g-gc">中青网</a>
+            <a class="g-gc">网信网</a>
+            <a class="g-gc">首都之窗</a>
+
+
+        </div>
+    </div>
+    <div class="page-width">
+        <div class="layout-side">
+            <div  class="g-bg11 g-br3">
+                <div class="starbar">
+                    <div class="starbar-list i-tv">
+                        <a>电视剧</a>
+                        <s class="split">|</s>
+                        <a>综艺</a>
+                    </div>
+                    <div class="starbar-list i-game">
+                        <a>游戏</a>
+                        <s class="split">|</s>
+                        <a>小游戏</a>
+                    </div>
+                    <div class="starbar-list i-movie">
+                        <a>电影</a>
+                        <s class="split">|</s>
+                        <a>直播</a>
+                    </div>
+                    <div class="starbar-list i-comic">
+                        <a>动画</a>
+                        <s class="split">|</s>
+                        <a>漫画</a>
+                    </div>
+                    <div class="starbar-list i-toutiao">
+                        <a>新闻</a>
+                        <s class="split">|</s>
+                        <a>军事</a>
+                    </div>
+                    <div class="starbar-list i-travel">
+                        <a>旅游</a>
+                        <s class="split">|</s>
+                        <a>音乐</a>
+                    </div>
+                    <div class="starbar-list i-caipiao">
+                        <a>彩票</a>
+                        <s class="split">|</s>
+                        <a>竞猜</a>
+                    </div>
+                    <div class="starbar-list i-gaoxiao">
+                        <a>搞笑</a>
+                        <s class="split">|</s>
+                        <a>小说</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--hao123的右边内容栏-->
+
+        <div class="layout-content">
+            <div class="layout-famoussite">
+                <div style="position: relative; z-index: 300;">
+                    <div class="widget-site">
+                        <ul class="site-bd site-hd0">
+                            <li class="site-item">
+                                <a class="sitelink sitemainlink">百度</a>
+                                •
+                                <a>贴吧</a>
+                                <a class="gif-icon">
+                                    <img src="./img/baiduzhongban-4.gif">
+                                </a>
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink weibo sitemainlink">新浪</a>
+                                •
+                                <a>微博</a>
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink souhu sitemainlink">新浪</a>
+                                •
+                                <a>微博</a>
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink tengxun sitemainlink">腾   讯</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink wangyi sitemainlink">网 易</a>
+
+                            </li>
+                            <li class="site-item site-item-last">
+                                <a class="sitelink youku sitemainlink">优 酷 网</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink sitemainlink">天 猫</a>
+                                <a class="gif-icon">
+                                    <img src="./img/tianmao2015082101.gif">
+                                </a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink fenghuang sitemainlink">凤 凰 网</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink taobao sitemainlink">淘 宝 网</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink game sitemainlink">免费游戏</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink  sitemainlink">4399游戏</a>
+
+                            </li>
+                            <li class="site-item site-item-last">
+                                <a class="sitelink hao123-movie-icon sitemainlink">hao123影视</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink jingdong sitemainlink">京 东</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink suning sitemainlink">苏宁易购</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink tejia sitemainlink">今日特价</a>
+
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink tiyu sitemainlink">体育</a>
+                                •
+                                <a>NBA</a>
+                            </li>
+                            <li class="site-item ">
+                                <a class="sitelink car  sitemainlink">汽车之家</a>
+
+                            </li>
+                            <li class="site-item site-item-last">
+                                <a class="sitelink juhuasuan sitemainlink">聚划算</a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
